@@ -1,4 +1,4 @@
-name: ray_tune_template
+name: torch
 channels:
   - defaults
   - conda-forge
@@ -34,9 +34,10 @@ dependencies:
   # - keras
   # - spacy
   # OTHER TOOLS
-  # - optuna
+  - optuna
   # - dask
   # - snakeviz
+  - ray-tune
   - pip:
      - -e .  # install git checkout of ray_tune_template in editable mode
      # add here only pip-packages that are not available in conda/conda-forge! E.g.:
