@@ -1,0 +1,4 @@
+experiment_name: test_run_2
+output_dir: /home/julian/Data/git/tune_run_results
+optimizer: AdamW
+metric: ["acc"]
